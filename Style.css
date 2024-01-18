@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(bg2.jpg);
+  background-size: cover;
+}
+.main {
+  height: 80vh;
+  width: 80vw;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.head h1 {
+  font-weight: 900;
+  color: rgb(247, 27, 93);
+  margin-bottom: 10px;
+}
+.winmsg {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+.game-box {
+  height: 60vh;
+  width: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.btns {
+  width: 18.5vh;
+  height: 18.5vh;
+  font-size: 87px;
+  margin: 2px;
+  border: none;
+  border-radius: 10px;
+  background-color: #ffffff;
+  color: rgb(111, 0, 255);
+}
+.reset {
+  width: 60vh;
+  height: 50px;
+  display: flex;
+  gap: 10vw;
+}
+.reset button {
+  margin: 10px 0px;
+  width: 40%;
+  height: 100%;
+  background-color: rgb(250, 166, 30);
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.reset button:hover {
+  background-color: rgb(250, 125, 30);
+  transform: scale(0.9);
+}
+#newgame {
+  background-color: rgb(3, 255, 3);
+}
